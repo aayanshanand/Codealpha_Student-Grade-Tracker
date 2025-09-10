@@ -1,0 +1,29 @@
+student-grade-tracker/
+├── backend/
+│   ├── src/
+│   │   └── main/
+│   │       └── java/
+│   │           └── com/
+│   │               └── gradetracker/
+│   │                   ├── GradeTrackerApplication.java
+│   │                   ├── controller/
+│   │                   │   └── StudentController.java
+│   │                   ├── model/
+│   │                   │   └── Student.java
+│   │                   └── service/
+│   │                       └── GradeService.java
+│   └── pom.xml
+└── frontend/
+    ├── public/
+    ├── src/
+    │   ├── components/
+    │   │   ├── StudentForm.jsx
+    │   │   ├── StudentList.jsx
+    │   │   └── SummaryReport.jsx
+    │   ├── services/
+    │   │   └── api.js
+    │   ├── App.js
+    │   ├── App.css
+    │   └── index.js
+    ├── package.json
+    └── README.md
